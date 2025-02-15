@@ -36,6 +36,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.LocatorIntoduction.executor": "Run",
+    "Application.Locators.executor": "Run",
     "Application.OpenURL.executor": "Run",
     "Maven.Selenium4Demo [install].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -55,9 +56,16 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LocatorIntoduction">
+  <component name="RunManager" selected="Application.Locators">
     <configuration name="LocatorIntoduction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LocatorIntoduction" />
+      <module name="Selenium4Demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Locators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Locators" />
       <module name="Selenium4Demo" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -72,6 +80,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Locators" />
         <item itemvalue="Application.LocatorIntoduction" />
         <item itemvalue="Application.OpenURL" />
       </list>
@@ -102,7 +111,31 @@
       <option name="project" value="LOCAL" />
       <updated>1739113771628</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="LocatorInto">
+      <option name="closed" value="true" />
+      <created>1739618995940</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1739618995942</updated>
+    </task>
+    <task id="LOCAL-00004" summary="LocatorInto">
+      <option name="closed" value="true" />
+      <created>1739619087249</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739619087249</updated>
+    </task>
+    <task id="LOCAL-00005" summary="LocatorInto">
+      <option name="closed" value="true" />
+      <created>1739619128317</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739619128317</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,6 +151,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Selenium4Demo project set up and WebDriver and driver relationship Demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selenium4Demo project set up and WebDriver and driver relationship Demo" />
+    <MESSAGE value="LocatorInto" />
+    <option name="LAST_COMMIT_MESSAGE" value="LocatorInto" />
   </component>
 </project>
