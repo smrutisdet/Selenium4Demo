@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd95e3d6-3c53-49e1-85c5-116b3d481fca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OpenURL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +35,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.LocatorIntoduction.executor": "Run",
     "Application.OpenURL.executor": "Run",
     "Maven.Selenium4Demo [install].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -51,9 +46,23 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "project.kotlinCompiler"
+  },
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
+    ]
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.LocatorIntoduction">
+    <configuration name="LocatorIntoduction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LocatorIntoduction" />
+      <module name="Selenium4Demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OpenURL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OpenURL" />
       <module name="Selenium4Demo" />
@@ -63,6 +72,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LocatorIntoduction" />
         <item itemvalue="Application.OpenURL" />
       </list>
     </recent_temporary>
@@ -76,6 +86,38 @@
       <option name="presentableId" value="Default" />
       <updated>1739082991718</updated>
     </task>
+    <task id="LOCAL-00001" summary="Selenium4Demo project set up and WebDriver and driver relationship Demo">
+      <option name="closed" value="true" />
+      <created>1739113767819</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739113767820</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Selenium4Demo project set up and WebDriver and driver relationship Demo">
+      <option name="closed" value="true" />
+      <created>1739113771628</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1739113771628</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Selenium4Demo project set up and WebDriver and driver relationship Demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium4Demo project set up and WebDriver and driver relationship Demo" />
   </component>
 </project>
