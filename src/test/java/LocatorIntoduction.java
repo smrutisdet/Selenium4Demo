@@ -11,5 +11,6 @@ public class LocatorIntoduction {
       WebElement searchBar = driver.findElement(By.xpath("//textarea[@id='APjFqb']"));
        System.out.println("is search bar displayed? "+searchBar.isDisplayed());
         driver.quit();
+
     }
 }
