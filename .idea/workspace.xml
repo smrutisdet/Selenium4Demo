@@ -24,6 +24,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "smrutisdet"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="1b0b98c8-4b13-48af-9b45-82bc0bfa3c53" />
+        <option name="url" value="https://github.com/smrutisdet/Selenium4Demo.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -37,6 +51,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ExplicitWait.executor": "Run",
     "Application.ImplicitWait.executor": "Run",
     "Application.LocatorIntoduction.executor": "Run",
     "Application.LocatorTagClassName.executor": "Run",
@@ -54,6 +69,8 @@
     "Application.WindowGetPosition.executor": "Run",
     "Application.WindowGetSize.executor": "Run",
     "Maven.Selenium4Demo [install].executor": "Run",
+    "Notification.DisplayName-DoNotAsk-Vcs Important Messages": "VCS important messages",
+    "Notification.DoNotAsk-Vcs Important Messages": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -76,7 +93,21 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ImplicitWait">
+  <component name="RunManager" selected="Application.FluentWait">
+    <configuration name="ExplicitWait" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExplicitWait" />
+      <module name="Selenium4Demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FluentWait" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FluentWait" />
+      <module name="Selenium4Demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ImplicitWait" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ImplicitWait" />
       <module name="Selenium4Demo" />
@@ -98,27 +129,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WindowGetPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WindowGetPosition" />
-      <module name="Selenium4Demo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WindowGetSize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WindowGetSize" />
-      <module name="Selenium4Demo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FluentWait" />
+        <item itemvalue="Application.ExplicitWait" />
         <item itemvalue="Application.ImplicitWait" />
         <item itemvalue="Application.ThreadSleep" />
         <item itemvalue="Application.RectangleDemo" />
-        <item itemvalue="Application.WindowGetPosition" />
-        <item itemvalue="Application.WindowGetSize" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +220,23 @@
       <option name="project" value="LOCAL" />
       <updated>1751264901005</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Implicit wait">
+      <option name="closed" value="true" />
+      <created>1751949582631</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1751949582631</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Explicit wait">
+      <option name="closed" value="true" />
+      <created>1751951258027</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1751951258028</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,6 +255,7 @@
     <MESSAGE value="LocatorInto" />
     <MESSAGE value="RelativeLocator toLeftOf toRightOf and near" />
     <MESSAGE value="Implicit wait" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implicit wait" />
+    <MESSAGE value="Explicit wait" />
+    <option name="LAST_COMMIT_MESSAGE" value="Explicit wait" />
   </component>
 </project>
