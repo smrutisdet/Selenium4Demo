@@ -8,9 +8,9 @@ public class LocatorIntoduction {
         WebDriver driver= new ChromeDriver();
         driver.get("https://www.google.com/");
         System.out.println(driver.getTitle());
-      WebElement searchBar = driver.findElement(By.xpath("//textarea[@id='APjFqb']"));
-       System.out.println("is search bar displayed? "+searchBar.isDisplayed());
+//      WebElement searchBar = driver.findElement(By.xpath("//textarea[@id='APjFqb']"));
+//       System.out.println("is search bar displayed? "+searchBar.isDisplayed());
+        System.out.println("is search bar displayed? "+driver.findElement(By.xpath("//textarea[@id='APjFqb']")).isDisplayed());
         driver.quit();
-
     }
 }

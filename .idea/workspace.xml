@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd95e3d6-3c53-49e1-85c5-116b3d481fca" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/LocatorTagClassName.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LocatorIntoduction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LocatorIntoduction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +37,22 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ImplicitWait.executor": "Run",
     "Application.LocatorIntoduction.executor": "Run",
+    "Application.LocatorTagClassName.executor": "Run",
     "Application.Locators.executor": "Run",
     "Application.OpenURL.executor": "Run",
+    "Application.RectangleDemo.executor": "Run",
+    "Application.RelativeLocatorAbove.executor": "Run",
+    "Application.RelativeLocatorLeftOf.executor": "Run",
+    "Application.RelativeLocatorNear.executor": "Run",
+    "Application.RelativeLocatorRightOf.executor": "Run",
+    "Application.RelativelocatorChaining.executor": "Run",
+    "Application.RelativelocatorMultipleWebElementIdentification.executor": "Run",
+    "Application.RelativelocatorStaticImport.executor": "Run",
+    "Application.ThreadSleep.executor": "Run",
+    "Application.WindowGetPosition.executor": "Run",
+    "Application.WindowGetSize.executor": "Run",
     "Maven.Selenium4Demo [install].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -56,23 +71,42 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Locators">
-    <configuration name="LocatorIntoduction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LocatorIntoduction" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ImplicitWait">
+    <configuration name="ImplicitWait" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ImplicitWait" />
       <module name="Selenium4Demo" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Locators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Locators" />
+    <configuration name="RectangleDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RectangleDemo" />
       <module name="Selenium4Demo" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OpenURL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OpenURL" />
+    <configuration name="ThreadSleep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadSleep" />
+      <module name="Selenium4Demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WindowGetPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WindowGetPosition" />
+      <module name="Selenium4Demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WindowGetSize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WindowGetSize" />
       <module name="Selenium4Demo" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -80,9 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Locators" />
-        <item itemvalue="Application.LocatorIntoduction" />
-        <item itemvalue="Application.OpenURL" />
+        <item itemvalue="Application.ImplicitWait" />
+        <item itemvalue="Application.ThreadSleep" />
+        <item itemvalue="Application.RectangleDemo" />
+        <item itemvalue="Application.WindowGetPosition" />
+        <item itemvalue="Application.WindowGetSize" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +171,39 @@
       <option name="project" value="LOCAL" />
       <updated>1739619128317</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="LocatorInto">
+      <option name="closed" value="true" />
+      <created>1739621800637</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1739621800637</updated>
+    </task>
+    <task id="LOCAL-00007" summary="LocatorInto">
+      <option name="closed" value="true" />
+      <created>1739621849473</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1739621849473</updated>
+    </task>
+    <task id="LOCAL-00008" summary="RelativeLocator toLeftOf toRightOf and near">
+      <option name="closed" value="true" />
+      <created>1750913176318</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1750913176318</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Implicit wait">
+      <option name="closed" value="true" />
+      <created>1751264901005</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1751264901005</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,6 +220,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Selenium4Demo project set up and WebDriver and driver relationship Demo" />
     <MESSAGE value="LocatorInto" />
-    <option name="LAST_COMMIT_MESSAGE" value="LocatorInto" />
+    <MESSAGE value="RelativeLocator toLeftOf toRightOf and near" />
+    <MESSAGE value="Implicit wait" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implicit wait" />
   </component>
 </project>
