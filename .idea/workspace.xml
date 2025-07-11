@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd95e3d6-3c53-49e1-85c5-116b3d481fca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/LocatorTagClassName.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LocatorIntoduction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LocatorIntoduction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TakeScreenShotOfAWebElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TakeScreenShotOfAWebElement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,12 +24,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "smrutisdet"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;smrutisdet&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -52,6 +52,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ExplicitWait.executor": "Run",
+    "Application.FluentWait.executor": "Run",
     "Application.ImplicitWait.executor": "Run",
     "Application.LocatorIntoduction.executor": "Run",
     "Application.LocatorTagClassName.executor": "Run",
@@ -65,6 +66,9 @@
     "Application.RelativelocatorChaining.executor": "Run",
     "Application.RelativelocatorMultipleWebElementIdentification.executor": "Run",
     "Application.RelativelocatorStaticImport.executor": "Run",
+    "Application.TakeScreenShotOfAWebElement.executor": "Run",
+    "Application.TakeScreenShotOfFullPage.executor": "Run",
+    "Application.TakeScreenShotOfVisibleArea.executor": "Run",
     "Application.ThreadSleep.executor": "Run",
     "Application.WindowGetPosition.executor": "Run",
     "Application.WindowGetSize.executor": "Run",
@@ -74,6 +78,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -93,7 +98,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FluentWait">
+  <component name="RunManager" selected="Application.TakeScreenShotOfFullPage">
     <configuration name="ExplicitWait" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExplicitWait" />
       <module name="Selenium4Demo" />
@@ -108,22 +113,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImplicitWait" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ImplicitWait" />
+    <configuration name="TakeScreenShotOfAWebElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TakeScreenShotOfAWebElement" />
       <module name="Selenium4Demo" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RectangleDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RectangleDemo" />
+    <configuration name="TakeScreenShotOfFullPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TakeScreenShotOfFullPage" />
       <module name="Selenium4Demo" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadSleep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadSleep" />
+    <configuration name="TakeScreenShotOfVisibleArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TakeScreenShotOfVisibleArea" />
       <module name="Selenium4Demo" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TakeScreenShotOfFullPage" />
+        <item itemvalue="Application.TakeScreenShotOfVisibleArea" />
+        <item itemvalue="Application.TakeScreenShotOfAWebElement" />
         <item itemvalue="Application.FluentWait" />
         <item itemvalue="Application.ExplicitWait" />
-        <item itemvalue="Application.ImplicitWait" />
-        <item itemvalue="Application.ThreadSleep" />
-        <item itemvalue="Application.RectangleDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +241,39 @@
       <option name="project" value="LOCAL" />
       <updated>1751951258028</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Fluent wait">
+      <option name="closed" value="true" />
+      <created>1751953320935</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1751953320937</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Fluent wait">
+      <option name="closed" value="true" />
+      <created>1751953436610</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1751953436610</updated>
+    </task>
+    <task id="LOCAL-00014" summary="WebElement Screenshot">
+      <option name="closed" value="true" />
+      <created>1752038368337</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1752038368337</updated>
+    </task>
+    <task id="LOCAL-00015" summary="VisibleArea &amp; Full Page screenshot">
+      <option name="closed" value="true" />
+      <created>1752209210763</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1752209210763</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -256,6 +293,9 @@
     <MESSAGE value="RelativeLocator toLeftOf toRightOf and near" />
     <MESSAGE value="Implicit wait" />
     <MESSAGE value="Explicit wait" />
-    <option name="LAST_COMMIT_MESSAGE" value="Explicit wait" />
+    <MESSAGE value="Fluent wait" />
+    <MESSAGE value="WebElement Screenshot" />
+    <MESSAGE value="VisibleArea &amp; Full Page screenshot" />
+    <option name="LAST_COMMIT_MESSAGE" value="VisibleArea &amp; Full Page screenshot" />
   </component>
 </project>
