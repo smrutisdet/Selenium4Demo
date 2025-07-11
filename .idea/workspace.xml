@@ -60,6 +60,7 @@
     "Application.LocatorIntoduction.executor": "Run",
     "Application.LocatorTagClassName.executor": "Run",
     "Application.Locators.executor": "Run",
+    "Application.NestedFrameDemo.executor": "Run",
     "Application.OpenURL.executor": "Run",
     "Application.RectangleDemo.executor": "Run",
     "Application.RelativeLocatorAbove.executor": "Run",
@@ -101,16 +102,16 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IFrameDemo">
-    <configuration name="FluentWait" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FluentWait" />
+  <component name="RunManager" selected="Application.NestedFrameDemo">
+    <configuration name="IFrameDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IFrameDemo" />
       <module name="Selenium4Demo" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IFrameDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IFrameDemo" />
+    <configuration name="NestedFrameDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NestedFrameDemo" />
       <module name="Selenium4Demo" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NestedFrameDemo" />
         <item itemvalue="Application.IFrameDemo" />
         <item itemvalue="Application.TakeScreenShotOfFullPage" />
         <item itemvalue="Application.TakeScreenShotOfVisibleArea" />
         <item itemvalue="Application.TakeScreenShotOfAWebElement" />
-        <item itemvalue="Application.FluentWait" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +293,31 @@
       <option name="project" value="LOCAL" />
       <updated>1752210344592</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="IframeDemo">
+      <option name="closed" value="true" />
+      <created>1752211900631</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1752211900631</updated>
+    </task>
+    <task id="LOCAL-00019" summary="IframeDemo">
+      <option name="closed" value="true" />
+      <created>1752212712002</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1752212712002</updated>
+    </task>
+    <task id="LOCAL-00020" summary="IframeDemo">
+      <option name="closed" value="true" />
+      <created>1752212717698</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1752212717698</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -315,6 +340,7 @@
     <MESSAGE value="Fluent wait" />
     <MESSAGE value="WebElement Screenshot" />
     <MESSAGE value="VisibleArea &amp; Full Page screenshot" />
-    <option name="LAST_COMMIT_MESSAGE" value="VisibleArea &amp; Full Page screenshot" />
+    <MESSAGE value="IframeDemo" />
+    <option name="LAST_COMMIT_MESSAGE" value="IframeDemo" />
   </component>
 </project>
